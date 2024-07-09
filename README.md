@@ -1,6 +1,6 @@
 # first-year-project
 team mates:
 >> Rhythem
->> Vinayak Rai
 >> Viraj Singh
+>> Vinayak Rai
 >> Vishal Mishra
