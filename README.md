@@ -1,5 +1,5 @@
 # first-year-project
-team mamtes:
+team mates:
 >> Rhythem
 >> Viraj Singh
 >> Vinayak Rai
