@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+}
+header{
+    background-color: #2b0f63;
+    color:#fff;
+    padding: 1rem;text-align: center;
+}
+main{
+    padding:1rem;
+}
+footer{
+    background-color: #4b2e83;
+    color:#fff;
+    text-align: center;
+    font-style: oblique;
+    padding: 1rem;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1rem;
+}
