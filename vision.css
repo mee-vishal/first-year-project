@@ -68,6 +68,13 @@
   height: 2.25em;
   width: 2.25em;
 }
+footer{
+  background-color: #4b2e83;
+  color:#fff;
+  text-align: center;
+  font-style: oblique;
+  padding: 1rem;
+}
 @media screen and (min-width: 768px) {
   section {
     padding: 1em 7em;
