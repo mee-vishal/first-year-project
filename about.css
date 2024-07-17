@@ -13,7 +13,6 @@
     
 }
 .navbar a{
-
     font-size:xx-large;
      padding: 100px; 
      color: azure;
@@ -34,16 +33,19 @@
     opacity: 0.4;
     width: 100%;
     height: 100%;
+    
     /* border-bottom: solid 10px #4b2e83; */
     
 }
 .content{
     position: absolute;
-  top:45%;
-  left: 50%;
+  top:40%;
+  left:45%;
   transform: translate(-50%, -50%);
   color:#36215f;
-  font-size: 32px;
+  font-size: 35px;
+  width: 70vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 .history{
@@ -60,9 +62,13 @@
 }
 .historycontent{
 
-    font-size: x-large;
+  
+    font-size: xx-large;
     margin-left: 30px;
     margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 400px;
+    overflow: scroll;
    
 }
 .gallery{
@@ -107,6 +113,13 @@
   margin-left:90px;
   padding:80px;
 
+}
+footer{
+  background-color: #4b2e83;
+  color:#fff;
+  text-align: center;
+  font-style: oblique;
+  padding: 1rem;
 }
 #content2{
 font-size: xx-large;
