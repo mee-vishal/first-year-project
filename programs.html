@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs of study</title>
+</head>
+<link rel="stylesheet" href="programs.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <header class="header">
+        Programs Of Study
+    </header>
+    
+    <div class="heading">
+        <i class='bx bx-chevrons-right'></i>Academic Programs
+    </div>
+      <div class="parent">
+        <div class="program" id="list">
+            <ul>
+                <li><i class='bx bxs-circle'></i>Bachelor of technology</li>
+                <li><i class='bx bxs-circle'></i>Master of technology</li>
+                <li><i class='bx bxs-circle'></i>Bachelor of Science</li>
+                <li><i class='bx bxs-circle'></i>Doctorate of Philosphy</li>
+                <li><i class='bx bxs-circle'></i>Master of Science</li>
+                <li><i class='bx bxs-circle'></i>Master of Buisness Administration</li>
+                <li><i class='bx bxs-circle'></i>Post Graduate Diploma</li>
+                
+            </ul>
+
+        </div>
+        
+        <div class="program">
+            <div class="mySlides fade">
+                
+                <img src="/IT building.png"  width="800px">
+               
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="/ece .png" width="800px" >
+                
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="/classrooms.png" width="800px" height="572px">
+                
+              </div>
+              <div class="mySlides fade">
+                <img src="/ipe.png" width="800px">
+                
+              </div>
+              <div class="mySlides fade">
+                <img src="/class.png" width="800px">
+                
+              </div>
+              <div class="mySlides fade">
+                <img src="/chemical.png" width="800px">
+                
+              </div>
+              <div class="mySlides fade">
+                <img src="/covocation.png" width="800px">
+                
+              </div>
+              
+              </div>
+              <br>
+              
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+              </div>
+              
+              
+              <script>
+              let slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+              }
+              </script>
+              <br>
+            
+            
+
+            
+
+                
+                </body>
+                </html> 
+                
+            
+
+                
