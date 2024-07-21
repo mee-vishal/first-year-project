@@ -1,0 +1,136 @@
+#ourteamdiv{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    size: 150%;
+    background-color: #f4f4f4;
+    margin-top:30px;
+  }
+  .team-section {
+    padding: 50px 0;
+  }
+  .team-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 2px;
+  }
+  .team-section p {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .team-member {
+    margin: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 181px;
+    text-align: center;
+    border: none;
+  }
+  .team-member img {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .team-member h3 {
+    margin-bottom: 0px;
+    font-size: 150%;
+    font-style: oblique;
+    font-weight: 900;
+  }
+  .team-member h4 {
+    font-weight: normal;
+    font-size: 120%;
+    margin-bottom: 4px;
+  }
+  .team-member .social-icons {
+    /* margin-bottom: 15px; */
+    /* margin-right:32px; */
+    /* padding-right:50px; */
+  }
+  .team-member .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .team-member .social-icons a:hover {
+    background-color: #77777780;
+    border-radius: 5px;
+   
+
+    /* size: */
+   }
+
+  .team-member p {
+    font-size: 0.9em;
+    color: #777;
+  }
+
+  .instagram {
+    color: #c71b82;
+    width:25px;
+    height:30px;
+    text-align: center;
+    padding-top:7px;
+    /* margin-left:20px; */
+
+  }
+  .linkedin {
+    color: #0077b5;
+    width:25px;
+    height:30px;
+    text-align: center;
+    padding-top:7px;
+
+    /* padding:; */
+  }
+  .twitter {
+    color: rgb(0, 166, 255);
+    width:25px;
+    height:30px;
+    text-align: center;
+    padding-top:7px;
+  }
+
+.twitter:hover{
+  background-color: #77777707;
+
+
+    border-radius:5px;
+  }
+
+  .color1 {
+    color: #1b8506;
+  }
+  .color2 {
+    color: #127264;
+  }
+  .color3 {
+    color: #166e2a;
+  }
+  .color4 {
+    color: #0d6735;
+  }
+  .twitter{
+    /* position:fixed; */
+  }
+  .faba{
+    text-align: center;
+    /* margin:30px; */
+    margin:1px 10px 3px 10px ;
+  }
+  .social-icons{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin:auto;
+    margin-left:30px;
+  }
