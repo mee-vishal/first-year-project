@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="utkansh2.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <div class="slideshow-container">
+        
+        
+        <div class="mySlides fade">
+          <img src="/techniti.jpeg" >
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="/fashion 1.jpeg" >
+        </div>
+        <div class="mySlides fade">
+            <img src="/ninja tech.jpeg" >
+          </div>
+          <div class="mySlides fade">
+            <img src="/fashion 3.jpeg">
+          </div>
+        
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            
+          </div> 
+          <p class="fest">TECHNITI</p>
+          <br>
+          <div class="content">
+            TechNITi is the techno-managerial student fest of Dr. B. R. Ambedkar National Institute of Technology (NIT), Jalandhar in Punjab, India. techNITi, the annual fest, has emerged as one of the region’s most sought after event.
+
+            TechNITi is just not an event but a celebration of colors of innovation and management and aims to foster the entrepreneurial spirit among the students fraternity. TechNITi is an expression of excellence, a platform that aims to be the stepping stone for innovative ideas and to turn them into an opportunity to revolutionize the world.          </div>
+         
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+       
+        
+ </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="utkansh2.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="/akhil.jpeg"  >
+        </div>
+        <div class="mySlides fade">
+          <img src="/afterall.jpeg" >
+        </div>
+        <div class="mySlides fade">
+          <img src="/fashion 3.jpeg" >
+        </div>
+        <div class="mySlides fade">
+            <img src="/dj.jpeg" >
+          </div>
+          <div class="mySlides fade">
+            <img src="/afterall 2.jpeg">
+          </div>
+          <div class="mySlides fade">
+            <img src="/utkansh.jpeg">
+          </div>
+          <div class="mySlides fade">
+            <img src="/utkansh 2.jpeg">
+          </div>
+          <div class="mySlides fade">
+            <img src="/fashion  2.jpeg">
+          </div>
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span> 
+            
+          </div> 
+          <p class="fest">UTKANSH</p>
+          <br>
+          <div class="content">
+              The annual cultural fest “UTKANSH”, which attracts thousands of students across the country to participate in the days of extravaganza comprising of competitions, seminars, symposium and workshops. Since its inception in 2006, this festival has been identified as a convergence of cultures and a confluence of best talents across the country.
+          </div>
+         
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 1500); // Change image every 2 seconds
+        }
+        </script>
+       
+        
+ </body>
+</html>

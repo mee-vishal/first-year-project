@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fests.css" >
+</head>
+<body>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="/afterall.jpeg"  >
+</div>
+
+<div class="mySlides fade">
+  <img src="/bharat dwani 2.jpeg" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/fashion 3.jpeg" >
+</div>
+<div class="mySlides fade">
+    <img src="/athelitcs.jpeg" >
+  </div>
+  <div class="mySlides fade">
+    <img src="/fashion  2.jpeg">
+  </div>
+  <div class="mySlides fade">
+    <img src="/bharat dwani 3.jpeg">
+  </div>
+
+  <div class="centered-textu">GET READY<br></div>
+  
+  <div class="centered-text">TO DISCOVER FESTS</div>
+  <div class="icon-container">
+    <div class="icon">
+      <a href="utkansh.html"><img src="/cropped_image (5).png" alt="Utkansh"></a>
+    </div>
+    <div class="icon">
+      <a href="techniti.html"><img src="/cropped_image (10).png" alt="Techniti" ></a>
+    </div>
+    <div class="icon">
+      <a href="dhwani.html"><img src="/cropped_image.png" alt="Bharat Dhwani"></a>
+    </div>
+    <div class="icon">
+      <a href="athletics.html"><img src="/cropped_image (9).png" alt="Annual Atheletic Fest"></a>
+    </div>
+  </div>
+</div>
+
+
+
+<div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+  </div>  
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 1500); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

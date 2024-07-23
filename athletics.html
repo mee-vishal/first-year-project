@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="utkansh2.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <div class="slideshow-container">
+        
+        
+        <div class="mySlides fade">
+          <img src="/athelitcs.jpeg" >
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://www.nitj.ac.in/clubs/img/sportst1.jpg" >
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.nitj.ac.in/clubs/img/sportst2.jpg" >
+          </div>
+          <div class="mySlides fade">
+            <img src="/athelitcs 3.jpeg">
+          </div>
+          
+        
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            
+          </div> 
+          <p class="fest">ATHLETIC FEST</p>
+          <br>
+          <div class="content">
+            An athletics fest is an event that involves various athletic competitions, typically held over the course of one or several days.
+These events may include track and field events such as sprints, hurdles, long- distance running, high jump, long jump, triple jump, shot put, discus throw and javelin.
+Intense hard work is followed by full appreciation from authorities, prize distribution ceremony.
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2500); // Change image every 2 seconds
+        }
+        </script>
+       
+        
+ </body>
+</html>
