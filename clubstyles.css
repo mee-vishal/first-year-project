@@ -10,6 +10,7 @@ header{
     text-align: center;
     
 }
+
 footer{
     background-color: #4b2e83;
     color:#fff;
@@ -19,8 +20,8 @@ footer{
 }
 nav ul {
     display: flex;
-    list-style-type: none;    
-    justify-content:space-around;
+    list-style-type: none; 
+    justify-content: space-around;   
 }
 nav a {
     
@@ -94,8 +95,5 @@ img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Dakshimage{
-    background-color: black;
-}
-#prayaasimage{
     background-color: black;
 }
