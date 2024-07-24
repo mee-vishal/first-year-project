@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+   
 }
 .header{
     height:20vh;
@@ -12,6 +12,7 @@
     align-items: center;
     color: whitesmoke;
     font-size:70px;
+    overflow-x: hidden;
 }
 .heading{
     color:#513883;
@@ -19,6 +20,7 @@
     height: 15vh;
     width:100vw;
     padding-top: 20px;
+    overflow-x: hidden;
 }
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -29,6 +31,7 @@ img {vertical-align: middle;}
 .program {
    width: 1000px; 
   float:right;
+  overflow-x: hidden;
 ;
 }
 li{
@@ -77,7 +80,16 @@ img {
   top: 0;
 } */
 
-/
+/* The dots/bullets/indicators */
+/* .dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
 
 .active {
   background-color: #717171;
@@ -103,19 +115,22 @@ img {
         align-items: center;
         color: whitesmoke;
         font-size:30px;
+        overflow-x: hidden;
     }
     .heading{
         color:#513883;
-        font-size: 30px;
+        font-size: 28px;
         height: 15vh;
-        width:100vw;
+        width:100%;
         padding-top: 40px;
+        overflow-x: hidden;
     }
     
         
       .program {
         max-width: 100%; 
        float:left;
+       overflow-x: hidden;
      
      }
       
@@ -123,9 +138,12 @@ img {
           
           width:1800px;
           font-size: 20px;
+          overflow-x: hidden;
+
           
       }
       ul li:hover{
           color: orange;
+          overflow-x: hidden;
       }
 }
