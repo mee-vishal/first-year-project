@@ -103,7 +103,7 @@ img {
 }
 @media (min-width:1000px){
   .header{
-      height:50px;
+      height:200px;
       max-width: 100%;
       background-color: #513883;
       display: flex;
@@ -115,7 +115,7 @@ img {
   }
   .heading{
       color:#513883;
-      font-size: 28px;
+      font-size: 32px;
       height: 15vh;
       width:100%;
       padding-top: 40px;
@@ -131,7 +131,7 @@ img {
       flex-direction: row;
     }
     li{
-      font-size: 30px;
+      font-size: 32px;
       margin-left: 150px;
       cursor: pointer;
       list-style: none;
