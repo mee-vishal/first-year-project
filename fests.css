@@ -40,7 +40,7 @@
 
   .centered-textu {
       color: white;
-      position: fixed;
+      position: absolute;
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -51,7 +51,7 @@
     }
   .centered-text {
       color:whitesmoke;
-      position:fixed;
+      position:absolute;
       top: 56%;
       left: 50%;
       transform: translate(-50%, -50%);
