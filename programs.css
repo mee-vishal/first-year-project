@@ -103,7 +103,7 @@ img {
 }
 @media (min-width:1000px){
   .header{
-      height:auto;
+      height:50px;
       max-width: 100%;
       background-color: #513883;
       display: flex;
