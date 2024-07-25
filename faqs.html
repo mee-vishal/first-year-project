@@ -13,7 +13,7 @@
         <h1>Frequently Asked Questions</h1>
         <nav>
             <ul>
-                <a href="#General">General</a>
+                <a href="#General" id="general-click">General</a>
                 <a href="#course" id="cource-click">Course</a>
             </ul>
         </nav>
@@ -123,6 +123,13 @@
                  document.getElementById('cource-click').addEventListener('click', function(e) {
     e.preventDefault();
     document.querySelector('#course').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+                  document.getElementById('general-click').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#General').scrollIntoView({
       behavior: 'smooth'
     });
   });
