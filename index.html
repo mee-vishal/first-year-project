@@ -351,14 +351,15 @@
 <div id="secondmain">
 <div class="second-main" id="second-main-01">
     <div class="quick-links-under-second-main-01">QUICK LINKS</div>
-    <a href="index.html"><div class="second-main-01-divs"><i class="fa-solid fa-house logoss"></i>HOME                                </div></a>
+        <a href="index.html"><div class="second-main-01-divs" id="home-last"><i class="fa-solid fa-house logoss"></i>HOME                                </div></a>
+
     <a href="clubs.html"><div class="second-main-01-divs"><i class="fa-solid fa-circle-nodes logoss"></i>CLUBS                        </div></a>
     <a href="contacts.html"><div class="second-main-01-divs"><i class="fa-regular fa-address-book logoss"></i>CONTACT                    </div></a>
     <a href="pyq.html"><div class="second-main-01-divs"><i class="fa-solid fa-sheet-plastic logoss"></i>PYQS                        </div></a>
     <a href="placement_2023.html"><div class="second-main-01-divs"><i class="fa-solid fa-graduation-cap logoss whiteness"></i>PLACEMENT        </div></a>
     <a href="faqs.html"><div class="second-main-01-divs"><i class="fa-solid fa-person-circle-question logoss whiteness"></i>FAQS     </div></a>
-    <a href="about.html"><div class="second-main-01-divs"><i class="fa-solid fa-users whiteness logoss"></i>ABOUT US                  </div></a>
-    
+        <a href="#ourteamdiv"><div class="second-main-01-divs" id="aboutus-last"><i class="fa-solid fa-users whiteness logoss"></i>ABOUT US                  </div></a>
+
 </div>
 <div class="second-main" id="second-main-02">
   <div class="quick-links-under-second-main-02">SOCIAL MEDIA</div>
@@ -397,6 +398,21 @@
   document.getElementById('taglinebutton').addEventListener('click', function(e) {
     e.preventDefault();
     document.querySelector('#ourteamdiv').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+        
+  document.getElementById('aboutus-last').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#ourteamdiv').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+
+         document.getElementById('home-last').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#main').scrollIntoView({
       behavior: 'smooth'
     });
   });
