@@ -71,3 +71,11 @@ body {
 .phonebook td a:hover {
     text-decoration: underline;
 }
+
+footer{
+    background-color: #4b2e83;
+    color:#fff;
+    text-align: center;
+    font-style: oblique;
+    padding: 1rem;
+    }
