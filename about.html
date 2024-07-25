@@ -15,8 +15,9 @@
         </p>
         <nav class="navbar">
            <a id="intro" class="intro" href="#">INTRODUCTION</a>
-            <a class="history" id=" history-scroll" href="#history">HISTORY</a>
-            <a class="ranking" href="#ranking">RANKING</a>
+          <a class="history" id="history-scroll" href="#history">HISTORY</a>
+          <a class="ranking" id="ranking-scroll" href="#ranking">RANKING</a>
+
         </nav>
     
     </header>
@@ -30,7 +31,7 @@
         
     </section>
     
-    <section class="history" id="history">
+     <section class="history hist" id="history">
            <p id="history hiscroll"><i class='bx bx-time-five'></i>  Institute History</p>
            <br>
        <div class="gallery">
@@ -61,7 +62,7 @@
         
 
     </section>
-    <section class="ranking" id="ranking">
+     <section class="ranking rank" id="ranking">
         <p class="logo1"> <i class='bx bx-line-chart'></i>  Institute Ranking </p>
         <table class="timeline">
           <tr>
@@ -162,12 +163,19 @@
     
     </section>
         <script>
-             document.getElementById('history-scroll').addEventListener('click', function(e) {
+           document.getElementById('history-scroll').addEventListener('click', function(e) {
     e.preventDefault();
-    document.querySelector('#history').scrollIntoView({
+    document.querySelector('.hist').scrollIntoView({
       behavior: 'smooth'
     });
   });
+
+  document.getElementById('ranking-scroll').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('.rank').scrollIntoView({
+      behavior: 'smooth'
+    });
+  });    
         </script>
 </body>
 </html>
