@@ -80,3 +80,11 @@ h1 {
     line-height: 1.5;
     color: rgb(95, 24, 118);
 }
+
+footer{
+    background-color: #4b2e83;
+    color:#fff;
+    text-align: center;
+    font-style: oblique;
+    padding: 1rem;
+    }
