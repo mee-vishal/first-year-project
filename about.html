@@ -15,7 +15,7 @@
         </p>
         <nav class="navbar">
            <a id="intro" class="intro" href="#">INTRODUCTION</a>
-            <a class="history" href="#history">HISTORY</a>
+            <a class="history history-scroll" href="#history">HISTORY</a>
             <a class="ranking" href="#ranking">RANKING</a>
         </nav>
     
@@ -162,7 +162,7 @@
     
     </section>
         <script>
-             document.getElementById('hiscroll').addEventListener('click', function(e) {
+             document.getElementById('history-scroll').addEventListener('click', function(e) {
     e.preventDefault();
     document.querySelector('#historycontent').scrollIntoView({
       behavior: 'smooth'
