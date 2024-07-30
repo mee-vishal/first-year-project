@@ -1,5 +1,21 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900 */
+#temp-form{
+  font-size:20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#temp-form-link{
+  font-size:20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:lightcyan;
+  background-color:#26a8e064;
+  padding:2px;
+  border-radius:5px;
+  margin-top:4px;
+}
+#temp-form-link:hover{
+  background-color:#5059be
+}
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 /* 
 $size: 35vw;
