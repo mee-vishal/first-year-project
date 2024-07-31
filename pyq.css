@@ -6,32 +6,37 @@
 .header{
     background-color: rgb(81, 56, 131);
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    font-size: 50px;
-    width:100%;
-    height:20vh;
+    font-size:4em;
     color: whitesmoke;
 }
+footer{
+    background-color: #4b2e83;
+    color:#fff;
+    text-align: center;
+    font-style: oblique;
+    padding: 1rem;
+}
+table,
+th,
+thead,
+td,
+tr {
+    padding: 1.5em;
+}
 table{
-    
-    width: 100vw;
+    width: 100%;
     background-color: #fefdfd;
-    
-
 }
 th{
     border: solid grey 1px;
-    font-size: 100px;
 }
 tr{
     border: solid grey 1px;
      
 }
 td{
-    font-size:50px;
-    height: 12.2vh;
-    padding-left: 100px;
     border: solid grey 1px;
 
 }
@@ -39,7 +44,6 @@ td{
     background-color:#ffb98d ;
     cursor: pointer;
     border-radius: 40px;
-
 }
 #colour{
     background-color:#e7e0f6;
@@ -50,18 +54,11 @@ td{
         display: flex;
         justify-content:left;
         align-items: center;
-        padding-left: 20px;
-        font-size: 25px;
         width:100%;
-        height:10vh;
         color: whitesmoke;
     }
     table{
-    
-        width: 320px;
         background-color: #fefdfd;
-        
-    
     }
     #link:hover{
         background-color:#ffb98d ;
@@ -72,15 +69,10 @@ td{
         background-color: #e7e0f6;
     }
     td{
-        font-size:20px;
-        height: 105px;
-        padding-left: 0px;
         border: solid grey 1px;
-        width: 10px;
     
     }
     th{
         border: solid grey 1px;
-        font-size: 25px;
     }
 }
