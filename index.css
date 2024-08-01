@@ -1,9 +1,34 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900 */
+#android{
+  width:20rem;
+  height:100%;
+margin:auto;
+margin-top:50%;
+text-align:center;
+padding:1rem;
+background-color:rgba(183, 213, 174, 0.531);  
+}
+#androidhead{
+font-size: 1rem;
+}
+@media only screen and (min-width:451px){
+#android{
+  display:none;
+}
+}
+
 @media only screen and (max-width:450px)  {
-body{
+#main{
   display:none;
 }  
+footer{
+  display:none;
+
+}
+.second-main{
+  display:none;
+}
 }
 #temp-form{
   font-size:20px;
