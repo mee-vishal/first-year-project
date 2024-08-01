@@ -1253,6 +1253,28 @@ border-radius: 10px;
     width: 0; /* Pause at the end before restarting */
   }
 }
+@media only screen and (max-width: 1250px) {
+  /* Your CSS rules for screens up to 1250px width */
+  
+  /* Modify the typing animation for smaller screens */
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    30% {
+      width: 70%; /* Reveal the full text */
+    }
+    40% {
+      width: 70%; /* Pause with the full text visible */
+    }
+    70% {
+      width: 0; /* Retract the text smoothly */
+    }
+    100% {
+      width: 0; /* Pause at the end before restarting */
+    }
+  }
+}
 
 @keyframes cursor-blink {
   0%, 100% {
