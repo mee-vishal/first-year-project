@@ -1,5 +1,10 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900 */
+@media only screen and (max-width:450px)  {
+body{
+  display:none;
+}  
+}
 #temp-form{
   font-size:20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
