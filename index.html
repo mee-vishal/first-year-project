@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="ourteam.css">
+      <link rel="stylesheet" href="styleregisterbutton.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -67,6 +68,50 @@
         height:fit-content;
         width:fit-content;
      }
+
+/*       new update */
+      .toprightlogo{
+height:30px;
+/* width:10px; */
+border-radius:0.7em;
+ }
+ #linkedinlogoin{
+  height:33px;
+}
+.social-media-icons-top {
+  position:relative;
+}
+
+.social-media-icons-top::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  /* right:55%; */
+  margin:0.1em;
+  bottom:-5px;
+  width: 0px;
+  height: 2px; /* Adjust the height of the line */
+  background-color: rgb(207, 214, 207); /* Adjust the color of the line */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.social-media-icons-top:hover::after {
+  width: 80%;
+  left: 0;
+  right:5;
+ 
+}
+.social-media-icons-top{
+  margin-bottom:10px;
+  margin-left:0.8em;
+}
+
+
+.socialmedialinks-nitconnect{
+  width: 60%;
+  height:80%; 
+  /* background-color:#24a379; */
+ }
      </style>
 </head>
 <body>
@@ -80,11 +125,31 @@
 <div id="heading2" class="head1"><h1 id="web-heading">NIT-J CONNECT</h1></div>
 <div id="heading3" class="head1">
     <div class="heading3-inside" id="searchbox"><input type="text" placeholder="enter your search" id="searchbox-"></div>
-    <div class="heading3-inside" id="searchbutton"><buttn id="searchbutton-">SEARCH</buttn></div>
+    <div class="heading3-inside" id="searchbutton">
+<!--         <buttn id="searchbutton-">SEARCH</buttn> -->
+    <ul style="list-style-type: none;display: flex;gap: 0.8rem;margin-left:-36px;    margin-top: 27px; ">
+    <li class="social-media-icons-top">
+    <a href="https://www.instagram.com/dev.dynamo_2024?igsh=MWM3cHNkcGd3NzIzZw=="><img src="instagramlogo.jpeg"  class="toprightlogo"alt="instagram logo"></a>
+      <!-- <i class="fa-brands fa-square-instagram logoss social-media-logos insta"></i> -->
+    </li>
+
+    <li class="social-media-icons-top">
+      <!-- <i class="fa-brands fa-linkedin logoss linkedinweb social-media-logos "></i>\ -->
+    <img src="linkedinlogo.png" alt="linkedin" class="toprightlogo" id="linkedinlogoin">
+    </li>
+    <li class="social-media-icons-top"><a href="https://x.com/devdynamos04"><i class="fa-brands fa-square-twitter logoss social-media-logos twitter-logo"></i></a></i></li>
+   </ul>
+         </div>
+    <div class="nitjconnect-withus">
+      <!-- <h3 class="registerussidebar">REGISTER</h3> -->
+      <button class="btn" ><a href="#op" id="registerhere"style="text-decoration: none;color:white;">REGISTER</a></button>
+    </div>
+  
+  
+</div>   
+    </div>
     <!-- <div class="heading3-inside">h3</div> -->
-</div>
-   
-</div>
+
 
 <div id="div3">
     <div id="div-03-01">
